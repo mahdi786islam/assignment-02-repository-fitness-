@@ -240,9 +240,33 @@ body{
     width: 577px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    color: #5c5a5a;
+    gap: 10px;
 }
+.grid{
+    background-color: rgb(59, 58, 58);
+    border: none;
+    border-radius: 8px;
+}
+.activity{
+    height: 48px;
+    width: 577px;
+    background-color: rgb(59, 58, 58);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#calculate{
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    color: white;
+    border: 1px solid #E6533C;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
 /* Meet our team section styles */
 .meet-our-team-container{
     width: 85%;
