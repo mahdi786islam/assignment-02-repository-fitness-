@@ -215,10 +215,33 @@ body{
 .bmi-calculator-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgba(85, 85, 85, 0.4);
+    height: 487px;
 }
 .calculator-chart{
     margin-left: 90px;
+}
+.calculator-chart h1{
+    margin-bottom: 50px;
+}
+.calculator-chart table,tr,th,td{
+    text-align: left;
+    padding: 15px 40px 15px 10px;
+    border: 1px solid rgb(71, 65, 65);
+    border-collapse: collapse;
+}
+.calculator-chart td{
+    font-size: 0.9rem;
+    color: rgb(126, 123, 123);
+}
+.form-grid{
+    height: 96px;
+    width: 577px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    color: #5c5a5a;
 }
 /* Meet our team section styles */
 .meet-our-team-container{

@@ -12,7 +12,7 @@
         <div class="nav-background">
             <nav class="nav-container display-flex">
                 <div class="nav-title">
-                    <h1>Fitness</h1>
+                    <h1><i>Fitness</i></h1>
                 </div>
                 <div class="nav-menu display-flex">
                     <ul class="nav-links display-flex">
@@ -116,8 +116,8 @@
             <table>
                 <thead>
                     <tr>
-                    <td>BMI</td>
-                    <td>Weight Status</td>
+                    <th>BMI</th>
+                    <th>Weight Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -144,10 +144,12 @@
             <h1>Calculate your BMI</h1>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to gym.</p>
             <form action="">
-                <input type="text" placeholder="Height/cm">
-                <input type="text" placeholder="Weight/kg"><br>
-                <input type="text" placeholder="Age">
-                <input type="text" placeholder="Sex"><br>
+                <div class="form-grid">
+                    <input type="text" placeholder="Height/cm">
+                    <input type="text" placeholder="Weight/kg">
+                    <input type="text" placeholder="Age">
+                    <input type="text" placeholder="Sex">
+                </div>
                 <input type="text" placeholder="Select an activity factor"><br>
                 <button>Calculate</button>
             </form>
