@@ -361,11 +361,21 @@ footer{
 .footer-title p{
     margin-top: 20px;
 }
-.get-started-1,.get-started-2{
+.get-started-1 h1,.get-started-2 h1{
     font-size: 2rem;
     font-weight: 600;
+}
+.footer-list h3{
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .bottom-line{
     text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 20px 0px;
+    width: 90%;
+    border-top: 1px solid rgb(104, 101, 101);
 }
