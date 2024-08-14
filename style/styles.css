@@ -389,7 +389,7 @@ footer{
         margin-top: 20px;
     }
     .nav-title{
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .nav-links{
         display: none;
@@ -440,6 +440,11 @@ footer{
         
         
     }
+    .change-habit-title h1{
+        margin-top: -90px;
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
     .change-habit-icons{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -447,28 +452,73 @@ footer{
     } 
     .run-an-extra-mile-container{
         flex-direction: column;
+        width: 85%;
+    }
+    .run-an-extra-mile-content button{
+        width: 350px;
+        height: 54px;
+        background-color: #E6533C;
+        color: white;
+        border: 1px solid #E6533C;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .run-an-extra-mile-img img{
+        height: 280px;
+        width: 366px;
+        margin: 20px auto;
     }
     .bmi-calculator-title h1{
         text-align: left;
-        margin: 0 auto;
-        font-size: 3rem;
-        font-weight: bolder;
+        margin-left: 20px;
+        font-size: 2.5rem;
+        margin-top: -80px;
     }
     .bmi-calculator-title p{
-        text-align:left;
-       margin: 0 auto;
+        text-align: left;
+        margin-left: 20px;
     }
     .bmi-calculator-container{
         display: flex;
         flex-direction: column;
         background-color: rgba(85, 85, 85, 0.4);
-        height: 487px;
+        height: 800px;
         margin-bottom: 90px;
     } 
+    .calculator-chart{
+        margin-left: -80px;
+        margin-top: -90px;
+    }
+    .calculate-form{
+        margin-top: -150px;
+        margin-left: 20px;
+    }
+    .form-grid{
+        height: 96px;
+        width: 353px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .activity{
+        width: 365px;
+    }
+    .meet-our-team-title h1{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    
+    }
+    .jerome, .dianne{
+        display: none;
+    }
     .meet-our-team-gallery{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
+        width: 85%;
         gap: 10px;
         background-color: rgba(85, 85, 85, 0.4);
         border-radius: 12px;
@@ -480,6 +530,7 @@ footer{
         flex-direction: column;
         justify-content: left;
         align-items: start;
+        margin-left: 20px;
     }
     
 }
